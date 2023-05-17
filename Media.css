@@ -1,4 +1,14 @@
 @media screen and (max-width:920px){
+    p{
+        font-size: 12px;
+    }
+    /* this is location section */
+    .location-content p{
+        font-size: 8px;
+    }
+    .location-content h4{
+        font-size: 9px;
+    }
     /* this is search section */
     .search{
         max-width: 60%;
@@ -24,5 +34,34 @@
     /* this is country section */
     .country{
         width: 12%;
+    }
+    .flag img{
+        width: 19px;
+        margin-left: 8px;
+    }
+    .language select {
+        height: 15px;
+        width: 38px;
+        margin-right: 5px;
+    }
+    .order {
+        padding-left: 10px;
+        padding-top: 5px;
+    }
+    /* this is container 2 left section */
+    li{
+        font-size: 16px;
+    }
+    ul :nth-child(7){
+        display: none;
+    }
+    ul :nth-child(8){
+        display: none;
+    }
+    ul :nth-child(9){
+        display: none;
+    }
+    ul :nth-child(10){
+        display: none;
     }
 }
